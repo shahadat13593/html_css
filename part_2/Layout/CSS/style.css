@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  /* font-size: 62.5%; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  background: gold;
+  padding: 1rem;
+}
+
+.box:nth-child(2n) {
+  background: dodgerblue;
+}
+
+@media screen and (min-width: 568px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+  .box {
+    background: rgb(255, 255, 255);
+  }
+}

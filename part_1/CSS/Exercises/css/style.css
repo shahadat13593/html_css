@@ -1,0 +1,35 @@
+table {
+  border: 1px solid #c4dcf3;
+  border-collapse: collapse;
+  margin: 20px 20px 50px 20px;
+  font-size: 18px;
+}
+
+tr,
+th,
+td {
+  padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eef7ff;
+}
+
+thead tr:first-of-type,
+tfoot tr:first-of-type {
+  background-color: #427fef;
+  color: white;
+}
+
+tfoot tr {
+  text-align: left;
+}
+
+.box {
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: tomato;
+  border-radius: 9px;
+  box-shadow: 10px 10px 0 lightgrey;
+}

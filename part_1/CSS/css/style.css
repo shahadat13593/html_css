@@ -1,0 +1,187 @@
+/* a[href="https://www.google.com"]
+{
+  color: orangered;
+} */
+
+/* #product > p {
+  color: orange;
+}
+#product + p {
+  color: rgb(149, 3, 3);
+} */
+
+/* #product ~ p {
+  color: rgb(149, 3, 3);
+} */
+
+/* article :first-child {
+  font-size: 140%;
+  font-style: italic;
+  color: blueviolet;
+} */
+
+/* article p:first-of-type {
+  font-size: 140%;
+  font-style: italic;
+  color: blueviolet;
+} */
+
+/* article :last-child {
+  font-size: 140%;
+  font-style: italic;
+  color: rgb(43, 150, 226);
+} */
+
+/* article p:last-of-type {
+  font-size: 140%;
+  font-style: italic;
+  color: rgb(43, 150, 226);
+} */
+
+/* ul li:nth-child(odd) {
+  color: deeppink;
+}
+
+ul li:nth-child(even) {
+  color: deepskyblue;
+} */
+
+/* ul li:nth-child(3n) {
+  color: blueviolet;
+}
+
+a:link,
+a:visited {
+  color: red;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: dodgerblue;
+}
+
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+::selection {
+  background-color: pink;
+} */
+
+/* P::before {
+  content: "...";
+  display: block;
+} */
+/* P::after {
+  content: "...";
+  display: block;
+} */
+/* .products p:first-of-type {
+  color: dodgerblue;
+}
+
+.products p:last-of-type {
+  color: deeppink;
+}
+
+.products ~ p {
+  color: blueviolet;
+}
+
+article p::first-letter {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+article p::first-line {
+  color: darkturquoise;
+}
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: dodgerblue;
+}
+
+article p::after {
+  content: "I am shahadat.";
+  display: block;
+} */
+
+/* h1 {
+  color: dodgerblue;
+}
+.highlight {
+  color: deeppink;
+}
+#products {
+  color: green;
+}
+h1#products {
+  color: rgb(117, 166, 215);
+}
+
+.featured #products {
+  color: rgb(75, 142, 237);
+} */
+
+/* p {
+  color: dodgerblue;
+  border: 1px solid black;
+}
+
+strong {
+  color: initial;
+  border: inherit;
+} */
+
+/* .box {
+  width: 600px;
+  height: 200px; */
+/* background: linear-gradient(45deg, dodgerblue, yellow, tomato); */
+
+/* background: radial-gradient(circle at top left, white, yellow); */
+/* background: rgb(115, 107, 231);
+  background: linear-gradient(
+    32deg,
+    rgba(115, 107, 231, 1) 0%,
+    rgba(236, 107, 49, 1) 79%,
+    rgba(255, 107, 21, 1) 90%
+  ); */
+/* } */
+
+/* .box {
+  width: 200px;
+  height: 200px;
+  background: dodgerblue;
+  border: 10px solid royalblue;
+  border-top: 20px solid red;
+
+  border-width: 10px; 
+  border-radius: 100%;
+} */
+
+.box {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background: coral;
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+}
+
+.box h1 {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
