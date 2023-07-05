@@ -1,0 +1,15 @@
+/* .ufo {
+  width: 100px;
+}
+body {
+  background: url(images/constellation.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+} */
+
+.icon {
+  font-size: 2rem;
+  color: dodgerblue;
+}
